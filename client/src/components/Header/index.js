@@ -8,7 +8,7 @@ const Header = () => {
                 <Link to="/">
                     <h1>Tail Me About It</h1>
                 </Link>
-                {/* TODO: Login and Sign Up page? */}
+                {/* TODO: Login, Sign Up and Profile page? */}
                 <nav className="text-center">
                     <Link to="/toys">Toys</Link>
                     <Link to="/accessories">Accessories</Link>

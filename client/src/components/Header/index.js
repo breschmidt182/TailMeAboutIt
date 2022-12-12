@@ -10,8 +10,8 @@ const Header = () => {
                 </Link>
                 {/* TODO: Login, Sign Up and Profile page? */}
                 <nav className="text-center">
-                    <Link to="/toys">Toys</Link>
-                    <Link to="/accessories">Accessories</Link>
+                    <Link to="/dogs">Dogs</Link>
+                    <Link to="/cats">Cats</Link>
                     <Link to="/boxes">Holiday Boxes</Link>
                     <Link to="/sale">On Sale</Link>
                 </nav>

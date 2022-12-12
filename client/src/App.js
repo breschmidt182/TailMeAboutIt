@@ -2,8 +2,8 @@ import Home from './pages/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import NoMatch from './pages/NoMatch';
-import Toys from './pages/Toys';
-import Accessories from './pages/Accessories';
+import Dogs from './pages/Dogs';
+import Cats from './pages/Cats';
 import Boxes from './pages/Boxes';
 import Sale from './pages/Sale';
 //import Login from './pages/Login';
@@ -24,12 +24,12 @@ function App() {
                 element={<Home />}
               />
               <Route
-                path="/toys"
-                element={<Toys />}
+                path="/dogs"
+                element={<Dogs />}
               />
               <Route
-                path="/accessories"
-                element={<Accessories />}
+                path="/cats"
+                element={<Cats />}
               />
               <Route
                 path="/boxes"

@@ -28,6 +28,13 @@ Product.init(
 				model: 'Category',
 				key: 'id'
 			}
+		},
+		subCategory_id: {
+			type: DataTypes.INTEGER,
+			references: {
+				model: 'SubCategory',
+				key: 'id'
+			}
 		}
 	},
 	{
